@@ -60,3 +60,25 @@ print(indice_di_world)
 # usare un ciclo while per trasformare solo il primo carattere del nome e del cognome in maiuscolo
 # stampare la stringa
 # invocare la funzione main
+
+# ------------------------------------------------------------------------#
+#        ESERCIZIO CHE SE LO FAI TI ASSUMONO A GOOGLE DOMANI MATTINA!     #
+# ------------------------------------------------------------------------#
+
+# generare automaticamente un calendario di questo tipo per l'anno 2026
+# sapendo che 01/01/2026 era un giovedi:
+# gio 01/01/2026
+# ven 02/01/2026
+# sab 03/01/2026
+# ...
+# sab 31/01/2026
+# dom 01/02/2026
+# ...
+# gio 31/12/2026
+
+# ------------------------------------------------------------------------#
+#  ESERCIZIO DA FARE MENTRE ASPETTI DI ENTRARE IN GOOGLE DOMANI MATTINA!  #
+# ------------------------------------------------------------------------#
+
+# scrivere una funzione inverti_stringa che data una stringa in input la 
+# inverte e la ritorna in output. Stampare la stringa
