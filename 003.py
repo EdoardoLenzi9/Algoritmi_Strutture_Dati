@@ -8,6 +8,10 @@
 
 # stampa il valore di "x" e "y"
 
+# dichiara una stringa inlinea utilizzando le 2 dichiarazioni ammesse: "...", '...'
+
+# dichiara una stringa multiline utilizzando le 2 dichiarazioni ammesse: """...""", '''...'''
+
 # ------------------------------------------------------------------------#
 #                                 OPERAZIONI                              #
 # ------------------------------------------------------------------------#
