@@ -29,3 +29,17 @@
 # assegna alla variable "z" il valore 2 <= 1 e stampane il valore
 
 # assegna alla variable "z" il valore (2 <= 1) AND (x) OR (x AND y) e stampane il valore
+# True or True = True
+# True or False = True
+# False or True = False
+# False or False = False 
+
+# True and True = True
+# True and False = False
+# False and True = False
+# False and False = False 
+
+z: bool = True
+y: bool = False
+print(z and y)
+print("ciao" == "hello")

@@ -26,3 +26,48 @@
 # dal modulo sys importa la funzione getsizeof
 
 # stampa il risultato di getsizeof(1)
+
+
+# print("inizio programma")
+
+# def somma(x: int, y: int) -> int:
+#     w: int = x + y
+#     print(w)
+#     return w
+
+
+
+# a: int = 5
+# b: int = 8
+# c = somma(a,b)
+# print(c)
+
+# print(somma(10, 20))
+
+
+
+
+x: int = 1
+y: int = 2
+
+def somma(x: int, y: int) -> int:
+    w: int = x + y
+    return w
+
+z = somma(3, 4)
+print(x)
+print(y)
+print(z)
+
+
+
+
+
+
+
+
+
+
+
+
+

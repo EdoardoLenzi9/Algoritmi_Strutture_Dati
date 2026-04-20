@@ -33,3 +33,7 @@
 # assegna alla variabile booleana b il confronto fra w e "He!"
 
 # assegna alla variabile booleana b il confronto "w contiene la sottostringa "World" usando l'operatore in
+a: str = "ciao"
+b: str = "hello"
+c: str = a + " " + b
+print(c)
