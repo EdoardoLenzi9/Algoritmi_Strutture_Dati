@@ -20,32 +20,10 @@
 # cos'e' print? qual'e' la firma di print?
 
 # ------------------------------------------------------------------------#
-#                                 IMPORT                                  #
+#                                 EXAMPLE                                 #
 # ------------------------------------------------------------------------#
 
-# dal modulo sys importa la funzione getsizeof
-
-# stampa il risultato di getsizeof(1)
-
-
-# print("inizio programma")
-
-# def somma(x: int, y: int) -> int:
-#     w: int = x + y
-#     print(w)
-#     return w
-
-
-
-# a: int = 5
-# b: int = 8
-# c = somma(a,b)
-# print(c)
-
-# print(somma(10, 20))
-
-
-
+print("inizio programma")
 
 x: int = 1
 y: int = 2
@@ -55,19 +33,16 @@ def somma(x: int, y: int) -> int:
     return w
 
 z = somma(3, 4)
+
+# cosa verra' stampato nelle prossime righe?
 print(x)
 print(y)
 print(z)
 
+# ------------------------------------------------------------------------#
+#                                 IMPORT                                  #
+# ------------------------------------------------------------------------#
 
+# dal modulo sys importa la funzione getsizeof
 
-
-
-
-
-
-
-
-
-
-
+# stampa il risultato di getsizeof(1)

@@ -62,7 +62,7 @@ print(indice_di_world)
 # invocare la funzione main
 
 # ------------------------------------------------------------------------#
-#        ESERCIZIO CHE SE LO FAI TI ASSUMONO A GOOGLE DOMANI MATTINA!     #
+#     ESERCIZIO CHE SE LO FAI TI ASSUMONO A IN GOOGLE DOMANI MATTINA!     #
 # ------------------------------------------------------------------------#
 
 # generare automaticamente un calendario di questo tipo per l'anno 2026

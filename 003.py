@@ -8,12 +8,12 @@
 
 # stampa il valore di "x" e "y"
 
-# dichiara una stringa inlinea utilizzando le 2 dichiarazioni ammesse: "...", '...'
+# dichiara due stringhe in-linea utilizzando le 2 dichiarazioni ammesse: "...", '...'
 
-# dichiara una stringa multiline utilizzando le 2 dichiarazioni ammesse: """...""", '''...'''
+# dichiara due stringhe multi-linea utilizzando le 2 dichiarazioni ammesse: """...""", '''...'''
 
 # ------------------------------------------------------------------------#
-#                                 OPERAZIONI                              #
+#                                 SLICING e OPERAZIONI                    #
 # ------------------------------------------------------------------------#
 
 # dichiara una variable "z" di tipo stringa come concatenazione di x e y (con uno spazio in mezzo) 
@@ -37,7 +37,3 @@
 # assegna alla variabile booleana b il confronto fra w e "He!"
 
 # assegna alla variabile booleana b il confronto "w contiene la sottostringa "World" usando l'operatore in
-a: str = "ciao"
-b: str = "hello"
-c: str = a + " " + b
-print(c)
