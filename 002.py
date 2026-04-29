@@ -31,7 +31,7 @@
 # assegna alla variable "z" il valore (2 <= 1) AND (x) OR (x AND y) e stampane il valore
 # True or True = True
 # True or False = True
-# False or True = False
+# False or True = True
 # False or False = False 
 
 # True and True = True
