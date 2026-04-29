@@ -3,12 +3,15 @@
 # ------------------------------------------------------------------------#
 
 # dichiara una variabile x di tipo intero con valore iniziale 1
+
 # dichiara la variabile y di tipo float come conversione di x da int a float (cast)
 
 # dichiara la variabile z di tipo float con valore iniziale 3.14
+
 # dichiara la variabile w di tipo int come conversione di z da float a int (cast)
 
 # dichiara la variabile a di tipo bool con valore iniziale True
+
 # dichiara la variabile b di tipo int come conversione di a da bool a int (cast)
 
 # posso convertire una stringa in intero? cosa succede se provo a farlo?
