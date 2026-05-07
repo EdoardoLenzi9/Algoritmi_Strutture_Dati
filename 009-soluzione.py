@@ -60,6 +60,18 @@ print(indice_di_world)
 # usare un ciclo while per trasformare solo il primo carattere del nome e del cognome in maiuscolo
 # stampare la stringa
 # invocare la funzione main
+def main():
+    nome: str = input("inserisci nome e cognome: ")
+    nome = nome.lower()
+    i: int = 0
+    nome = nome.capitalize()
+    while i < len(nome):
+        if nome[i] == " ":
+            nome = nome[:i+1] + nome[i+1].upper() + nome[i+2:]
+        i += 1
+    print(nome)
+
+main()
 
 # ------------------------------------------------------------------------#
 #     ESERCIZIO CHE SE LO FAI TI ASSUMONO A IN GOOGLE DOMANI MATTINA!     #
@@ -76,9 +88,54 @@ print(indice_di_world)
 # ...
 # gio 31/12/2026
 
+def stampa_calendario():
+    anno: int = 2026
+    contatore_giorni = 1
+    for mese in range(1,13):
+        for giorno in range(1,32):
+            if (
+                (mese == 1 and giorno <= 31) or
+                (mese == 2 and giorno <= 27) or
+                (mese == 3 and giorno <= 31) or
+                (mese == 4 and giorno <= 30) or
+                (mese == 5 and giorno <= 31) or
+                (mese == 6 and giorno <= 30) or
+                (mese == 7 and giorno <= 31) or
+                (mese == 8 and giorno <= 31) or
+                (mese == 9 and giorno <= 30) or
+                (mese == 10 and giorno <= 31) or
+                (mese == 11 and giorno <= 30) or
+                (mese == 12 and giorno <= 31)
+            ):
+                etichetta = "dom"
+                if contatore_giorni % 7 == 1:
+                    etichetta = "lun"
+                if contatore_giorni % 7 == 2:
+                    etichetta = "mar"
+                if contatore_giorni % 7 == 3:
+                    etichetta = "mer"
+                if contatore_giorni % 7 == 4:
+                    etichetta = "gio"
+                if contatore_giorni % 7 == 5:
+                    etichetta = "ven"
+                if contatore_giorni % 7 == 6:
+                    etichetta = "sab"
+                print(f"{etichetta} {giorno}/{mese}/{anno}")
+                contatore_giorni += 1
+
+stampa_calendario()
+
 # ------------------------------------------------------------------------#
 #  ESERCIZIO DA FARE MENTRE ASPETTI DI ENTRARE IN GOOGLE DOMANI MATTINA!  #
 # ------------------------------------------------------------------------#
 
 # scrivere una funzione inverti_stringa che data una stringa in input la 
 # inverte e la ritorna in output. Stampare la stringa
+
+def inverti_stringa(stringa: str) -> str:
+    invertita = ""
+    for i in range(1,len(stringa) + 1):
+        invertita += stringa[-i]
+    return invertita
+
+print(inverti_stringa("Hello World!"))
